@@ -1,21 +1,24 @@
 {
   "name": "brainrot",
+  "homepage": "https://CreakZ.github.io/english-brainrot-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "deploy": "gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.2.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "@eslint/eslintrc": "^3"
+    "gh-pages": "^6.3.0"
   }
 }
